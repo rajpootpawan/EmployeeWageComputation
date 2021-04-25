@@ -24,6 +24,9 @@ class Employee
                 System.out.println("OneDay Wage is "+oneDayWage());
 		//User 3 added Function to calculte one day wage After add parttime..
 		System.out.println("Wage After added part time "+partTimeWage());
+		 //User 5 added a function to calculate wage for a month..
+                System.out.println("Wage For month "+wageMonth());
+
 
 
         }
@@ -37,5 +40,11 @@ public static int partTimeWage()
         int partTime=oneDayWage()+20*8;
 	return partTime;
 }
+public static int wageMonth()
+{
+        int month=20*oneDayWage();
+        return month;
+}
+
 
 }
