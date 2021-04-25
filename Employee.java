@@ -8,8 +8,9 @@ class Employee
 
 		//User1 Added the Random Function..
 		Random r= new Random();
-		int n=r.nextInt(2);
-		switch(n){
+		int num=r.nextInt(2);
+		//User 4 added the switch Case statements
+		switch(num){
 		case 0:
 			System.out.println("Employee Absent");
 			break;
